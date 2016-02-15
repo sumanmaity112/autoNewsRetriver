@@ -1,0 +1,14 @@
+.news{
+	font-size: 18px;
+    font-weight: 300;
+   	font-family: serif;
+   	text-decoration: none;
+   	line-height: 30px;
+}
+h1{
+	text-align: center;
+}
+.main{
+	width: 850px;
+	margin: 0 auto;
+}

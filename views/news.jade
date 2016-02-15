@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+	link(href='/style/news.css', rel='stylesheet')
+	head
+	body
+		div(class="main")
+			h1 NEWS
+			table
+				each element in news
+					tr
+						td
+							img(src=element.image)
+						td
+							a(href=element.url,target='_blank',class='news') !{element.title}
