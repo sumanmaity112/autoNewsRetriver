@@ -1,0 +1,25 @@
+{
+  "name": "auto-google-news-retriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "autoFindNews.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanmaity112/autoNewsRetriver.git"
+  },
+  "author": "Suman Maity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumanmaity112/autoNewsRetriver/issues"
+  },
+  "homepage": "https://github.com/sumanmaity112/autoNewsRetriver#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "unirest": "^0.4.2"
+  }
+}
